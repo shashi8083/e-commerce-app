@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landingpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+.landingpage img{
+    height: 200px;
+    width: 200px;
+    margin: 20px 50px;
+    transition: .5s;
+}
+.landingpage img:hover{
+    transform: scale(1.2);
+}
+.landingpage a{
+    height: 200px;
+    width: 200px;
+    margin: 20px 50px;
+    transition: .5s;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+}
+
